@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/postcode-app/static/css/main.00130146.css",
+    "main.js": "/postcode-app/static/js/main.17361403.js",
+    "index.html": "/postcode-app/index.html",
+    "main.00130146.css.map": "/postcode-app/static/css/main.00130146.css.map",
+    "main.17361403.js.map": "/postcode-app/static/js/main.17361403.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00130146.css",
+    "static/js/main.17361403.js"
+  ]
+}
