@@ -1,0 +1,98 @@
+.postCodeDetails {
+  color: rgb(232, 234, 237);
+  background-color: #1c1c1f;
+  box-shadow: 5px 5px 15px rgba(#363636, 0.5);
+  border-radius: 10px;
+  width: 19rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.postCodeRegion {
+  width: 40%;
+  height: 100%;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+.separator {
+  height: 5rem;
+  width: 2px;
+  background-color: rgb(232, 234, 237);
+}
+
+.nearbycontainer {
+  color: rgb(232, 234, 237);
+  width: 19rem;
+  height: 20rem;
+  background-color: #1c1c1f;
+  box-shadow: 5px 5px 15px rgba(#363636, 0.5);
+  border-radius: 10px;
+  padding: 0.5rem;
+  overflow-y: auto;
+}
+
+.nearbycontainer table {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nearbycontainer thead th {
+  padding: 6px;
+  border: 1px solid rgb(232, 234, 237, 0.3);
+}
+
+.nearbycontainer tbody th {
+  padding: 6px;
+}
+
+.nearbycontainer tbody td {
+  padding: 6px;
+  font-size: 12px;
+}
+
+.nearbycontainer tbody td a {
+  text-decoration: none;
+  color: rgb(232, 234, 237);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.nearbycontainer h5 {
+  font-weight: 400;
+}
+
+@media screen and (min-width: 640px) {
+  .postCodeDetails {
+    width: 40rem;
+    padding: 2rem;
+    justify-content: space-evenly;
+  }
+
+  .nearbycontainer {
+    width: 40rem;
+    padding: 2rem;
+  }
+
+  .postCodeDetails h4 {
+    font-size: 27px;
+  }
+
+  .postCodeRegion {
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+
+  .nearbycontainer table {
+    font-size: 17px;
+  }
+
+  .nearbycontainer tbody th {
+    width: 10%;
+  }
+}
